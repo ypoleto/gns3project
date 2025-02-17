@@ -1,0 +1,5 @@
+scp /etc/openvpn/easy-rsa/pki/ca.crt \
+    /etc/openvpn/easy-rsa/pki/issued/meuCliente.crt \
+    /etc/openvpn/easy-rsa/pki/private/meuCliente.key \
+    /etc/openvpn/ta.key \
+    usuario@192.168.122.5:/home/usuario/
